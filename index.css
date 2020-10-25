@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+
+#grid-size{
+    margin: 10px;
+}
+
+#etch-a-sketch {
+    display: grid;
+    gap: 1px;
+    width: 960px;
+    height: 960px;
+    max-height: 80vh;
+    max-width: 80vh;
+    margin: 0 auto;
+}
+
+.not-colored {
+    background-color: rgb(0, 100, 100);
+}
+
+.colored{
+    background-color: rgb(200, 50, 50);
+}
